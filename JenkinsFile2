@@ -11,7 +11,7 @@ pipeline {
                snDevOpsStep ()
                 sh 'mvn -B -DskipTests clean compile'
                 snDevOpsChange()
-		echo "welcome"
+		echo "welcome testing"
             }
         }
         
